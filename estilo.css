@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header .logo img {
+  max-width: 400px;
+  height: auto;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header nav ul li a:hover {
+  color: #FFA500;
+}
+
+/* Banner */
+#banner img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Informações principais */
+#informacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 20px;
+  border-top: 2px solid #FFA500;
+}
+
+#informacoes div {
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+}
+
+#informacoes h2 {
+  color: #FFA500;
+  margin-bottom: 10px;
+}
+
+/* Sobre e Serviços */
+#sobre-e-servicos {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  gap: 20px;
+  align-items: center;
+}
+
+#sobre, #servicos {
+  width: 45%;
+  background-color: black;
+  padding: 20px;
+  border: 1px solid #FFA500;
+  border-radius: 10px;
+}
+
+#sobre h2, #servicos h2 {
+  color: #FFA500;
+  margin-bottom: 15px;
+}
+
+#sobre p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#sobre button {
+  background-color: #FFA500;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#sobre button:hover {
+  background-color: orange;
+}
+
+#servicos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#servicos ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+footer p {
+  font-style: italic;
+  color: #FFA500;
+  margin-bottom: 10px;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+footer .social-links a img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover img {
+  filter: brightness(1.2);
+}
+#agendar {
+  bottom: 20px;
+  right: 20px;
+}
+
+#agendar a {
+  background-color: #FFA500;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#agendar a:hover {
+  background-color: orange;
+  transform: scale(1.1);
+}
+
